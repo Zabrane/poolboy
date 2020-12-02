@@ -54,7 +54,7 @@ timestamp() ->
     overflow = 0 :: non_neg_integer(),
     max_overflow = 10 :: non_neg_integer(),
     strategy = lifo :: lifo | fifo,
-    stats = false,
+    stats = true,
     %% quant_start is set in init/3 function
     %% because of timestamping issues on erlang/otp 17
     quant_start = undefined,
